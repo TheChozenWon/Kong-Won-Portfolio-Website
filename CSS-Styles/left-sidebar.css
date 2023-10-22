@@ -1,0 +1,9 @@
+.sidebar-left {
+  background-color: green;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 50px;
+    width: 50px
+}
