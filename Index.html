@@ -1,0 +1,75 @@
+<!--Intro: This is my home page, which I will build over time that uses as many features as possible for HTML and CSS, with some jS after finishing some HTML and CSS design. -->
+
+<!--Main goals to have on website: Link to a featured big projects section, link to a about me and my skills section, a contact section, include links for my github(has my small&medium projects), linkedin, email, make a header section, -->
+
+<!--Ending goals: state how we are different, my personality, have a focus eventually, have a art dirction (a transition/markup)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--includes view for all devices, links to CSS styles-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kong Won Portfolio Home</title>
+  <link rel="stylesheet" href="CSS-Styles/top-header.css">
+  <link rel="stylesheet" href="CSS-Styles/body.css">
+  <link rel="stylesheet" href="CSS-Styles/left-sidebar.css">
+  <link rel="stylesheet" href="CSS-Styles/right-sidebar.css">
+</head>
+
+<!--body includes in corresponding order: header, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, A about me, and a contact me-->
+<body>
+  <header>
+      <section>
+        <div class="header">header</div>
+      </section>
+  </header>
+
+  <section>
+    <nav>
+      <div class="sidebar-left">left</div>
+    </nav>
+  </section>
+
+  <section>
+    <nav>
+      <div class="sidebar-right">right</div>
+    </nav>
+  </section>
+
+  <main>
+    <section>
+      <div class="intro"><h1>Hi, my name is Kong Won, a Frontend Web Developer</h1></div>
+      <img src="../pictures/Kong-Won-picture.jpg">
+
+    </section>
+    
+    <section>
+      <h1>CONTACT ME:</h1> 
+      <p>Get in touch with me! I'll love to get to know you better. If you are interested in connecting with me, please fill out the form below:</p>
+
+      <form>
+        <fieldset>
+          <p id="headings">First Name:</p><input type="text" name="firstname" id="first-last-name" placeholder="Your First Name" maxlength="20" required><br>
+
+          <p id="headings">Last Name:</p><input type="text" name="lastname" id="first-last-name" placeholder="Your Last Name" maxlength="20" required><br>
+
+          <p id="headings">Email:</p><input type="email" name="email" id="youremail" placeholder="Your Email Address" maxlength="30" required><br>
+
+          <p id="headings">Message for me:</p><textarea rows="7" cols="40" name="message" id="messageme" placeholder="Write something special" maxlength="100" required></textarea><br><br>
+          
+          <input type="submit">
+
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  
+  <footer>
+    <p>
+      &copy;Kong Won - 2023</a>
+    </p>
+  </footer>
+</body>
+</html>
