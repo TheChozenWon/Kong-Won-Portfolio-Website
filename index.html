@@ -11,6 +11,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kong Won personal portfolio">
   <title>Kong Won Portfolio Home</title>
   <link rel="stylesheet" href="CSS-Styles/top-header.css">
   <link rel="stylesheet" href="CSS-Styles/body.css">
@@ -18,11 +19,26 @@
   <link rel="stylesheet" href="CSS-Styles/right-sidebar.css">
 </head>
 
-<!--body includes in corresponding order: header, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, A about me, and a contact me-->
+<!--body includes in corresponding order: header, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, A about me section, a projects seciton, and a contact me section-->
 <body>
-  <header>
+  <header class="header">
       <section>
-        <div class="header">header</div>
+        <div class="left-section">
+          <p>Kong Won</p>
+        </div>
+
+        <div class="middle-section">
+          <p>Email: kwon@rockets.utoledo.edu</p>
+        </div>
+
+        <div class="right-section">
+          <div class="upload-icon-container">
+            <a href="https://github.com/TheChozenWon"><img class="github-icon" src="pictures/github-logo.png"> </a>
+          </div>
+          <div class="upload-icon-container">
+            <a href="https://www.linkedin.com/in/kong-won-597144252/"><img class="linkedin-icon" src="pictures/LinkedIn-logo.png"></a>
+          </div>
+        </div>
       </section>
   </header>
 
@@ -40,44 +56,60 @@
 
   <main>
     <section>
-      <div class="intro"><h1>Hi, my name is Kong Won, a Frontend Web Developer</h1></div>
-      <img src="../pictures/Kong-Won-picture.jpg">
-
+      <div class="section-border">
+        <div class="intro"><h1>Hi, my name is Kong Won, a Frontend Web Developer</h1></div>
+        <img src="../pictures/Kong-Won-picture.jpg">
+      </div>
     </section>
 
     <section>
-      <div><h2>About me and my skills:</h2></div>
-        <div class="about-me">Prior to my journey of becoming an frontend web developer, I have learned 1-2 years of basic&intermediate Python and Java in my first few years in college. But the topics and concepts in the backend area was hard for me to fully understand. I starting learning frontend development with HTML, CSS and JavaScript and quickly realized that it was easier to fully understand and I acutally have an interest in this field.</div><br>
-        <div class="about-me">
-          Currently I am a senior in college with 1 year left till graduation and hope to find my first frontend job soon. My current plan is to eventually learn backend fully after mastering frontend development so I can be a full-stack developer.
+      <div class="section-border">
+        <div>
+          <h2>About me and my skills:</h2>
         </div>
-
+        <div class="about-me">
+          <p>Prior to my journey of becoming an frontend web developer, I have learned 1-2 years of basic&intermediate Python and Java in my first few years in college. But the topics and concepts in the backend area was hard for me to fully understand. I starting learning frontend development with HTML, CSS and JavaScript and quickly realized that it was easier to fully understand and I acutally have an interest in this field.
+          </p>
+        </div><br>
+        <div class="about-me">
+          <p>Currently I am a senior in college with 1 year left till graduation and hope to find my first frontend job soon. My current plan is to eventually learn backend fully after mastering frontend development so I can be a full-stack developer.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="section-spacing">
-      <div class="projects"><h2>My medium and big projects:</h2></div>
-        <div><a href="">Click this</a> to see my current and finished projects. </div>
-
+      <div class="section-border">
+        <div class="projects">
+          <h2>My medium and big projects:</h2>
+        </div>
+        <div>
+          <p>All my current projects use HTML,CSS, and javaScript</p>
+          <p><a href="">Click this</a> to see my current and finished projects. </p>
+        </div>
+      </div>
     </section>
     
     <section class="section-spacing">
-      <h1>CONTACT ME:</h1> 
-      <div class="contact">Get in touch with me! I'll love to get to know you better. If you are interested in connecting with me, please fill out the form below:</div>
+      <div class="section-border">
+        <h1>CONTACT ME:</h1> 
+        <div class="contact">Get in touch with me! I'll love to get to know you better. If you are interested in connecting with me, please fill out the form below:</div>
 
-      <form>
-        <fieldset>
-          <label for="first-name" class="info">First Name:</label><input type="text" name="first-name" id="first-last-name" placeholder="Your First Name" maxlength="20" required><br>
+        <form>
+          <fieldset>
+            <label for="first-name" class="info">First Name:</label><input type="text" name="first-name" id="first-last-name" placeholder="Your First Name" maxlength="20" required><br>
 
-          <label for="last-name" class="info">Last Name:</label><input type="text" name="last-name" id="first-last-name" placeholder="Your Last Name" maxlength="20" required><br>
+            <label for="last-name" class="info">Last Name:</label><input type="text" name="last-name" id="first-last-name" placeholder="Your Last Name" maxlength="20" required><br>
 
-          <label for="email" class="info">Email:</label><input type="email" name="email" id="your-email" placeholder="Your Email Address" maxlength="30" required><br>
+            <label for="email" class="info">Email:</label><input type="email" name="email" id="your-email" placeholder="Your Email Address" maxlength="30" required><br>
 
-          <label for="message" class="info">Message for me:</label><textarea rows="7" cols="40" name="message" id="messageme" placeholder="Write something special" maxlength="100" required></textarea><br><br>
-          
-          <input type="submit" value="Submit">
+            <label for="message" class="info">Message for me:</label><textarea rows="7" cols="40" name="message" id="messageme" placeholder="Write Something Special..." maxlength="100" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
 
-        </fieldset>
-      </form>
+          </fieldset>
+        </form>
+      </div>
     </section>
   </main>
   

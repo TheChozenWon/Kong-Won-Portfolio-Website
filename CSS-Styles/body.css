@@ -10,6 +10,12 @@ body {
   margin-top: 200px;
 }
 
+.section-border {
+  border: 1px solid black;
+  width: auto;
+  margin: auto 100px;
+}
+
 .intro {
   margin-top: 75px;
 }
