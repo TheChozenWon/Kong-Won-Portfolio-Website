@@ -21,7 +21,7 @@ body {
   margin-top: 75px;
 }
 
-.about-me {
+.my-story, .about-me {
   width: 500px;
   text-align: center;
   margin: auto;
