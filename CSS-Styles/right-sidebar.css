@@ -1,9 +1,17 @@
 .sidebar-right {
-  background-color: green;
     color: white;
     position: fixed;
     left: 1855px;
     bottom: 0px;
-    top: 50px;
-    width: 50px
+    top: 40px;
+    width: 50px;
+    border-left: 1px solid green;
+}
+
+.sidebar-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
 }

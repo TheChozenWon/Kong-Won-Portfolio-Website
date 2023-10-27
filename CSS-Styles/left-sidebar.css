@@ -1,9 +1,24 @@
 .sidebar-left {
-  background-color: green;
-    color: white;
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    top: 50px;
-    width: 50px
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 40px;
+ 
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+  border-right: 1px solid rgba(13, 211, 56, 0.5);
+}
+
+.sidebar-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+}
+
+.sidebar-icons img{
+  height: 50px;
+  margin-top: 900px;
 }
