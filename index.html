@@ -43,10 +43,10 @@
             </a>
           </div>
           <div class="upload-icon-container">
-            <button><p>Projects</p></button>
+            <button><a href="#my-projects"><p>Projects</p></a></button>
           </div>
           <div class="upload-icon-container">
-            <button><p>Contact</p></button>
+            <button><a href="#contact-kong"><p>Contact</p></a></button>
           </div>
         </div>
       </section>
@@ -56,22 +56,25 @@
     <nav>
       <div class="sidebar-left">
         <div class="sidebar-icons">
-          <img src="pictures/html.png">
+          <img src="pictures/html.png" alt="HTML icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/css.png">
+          <img src="pictures/css.png" alt="CSS icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/JavaScript-logo.png">
+          <img src="pictures/JavaScript-logo.png" alt="javaScript icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/Python.png">
+          <img src="pictures/Python.png" alt="Python icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/Java.jpg">
+          <img src="pictures/Java.jpg" alt="Java icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/git.png">
+          <img src="pictures/git.png" alt="git icon">
+        </div>
+        <div class="sidebar-icons">
+          <img src="pictures/PHP.png" alt="php icon">
         </div>
       </div>
     </nav>
@@ -81,26 +84,26 @@
     <nav>
       <div class="sidebar-right">
         <div class="sidebar-icons">
-          <img src="pictures/JavaScript-logo.png">
+          <img src="pictures/JavaScript-logo.png" alt="javaScript icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/React.png">
+          <img src="pictures/React.png" alt="React icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/Typescript.png">
+          <img src="pictures/Typescript.png" alt="Typescript icon">
         </div>
         <div class="sidebar-icons">
-          <img src="pictures/wordpress.png">
+          <img src="pictures/wordpress.png" alt="wordpress icon">
         </div>
       </div>
     </nav>
   </section>
 
   <main>
-    <section>
+    <section id="top-view" role="region" aria-labelledby="top-view">
       <div class="section-border">
         <div class="intro"><h1>Hi, my name is Kong Won, an upcoming Frontend Web Developer</h1></div>
-        <img src="../pictures/Kong-Won-picture.jpg">
+        <img src="pictures/Kong-Won-picture.jpg" alt="my picture">
       </div>
     </section>
 
@@ -131,10 +134,10 @@
       </div>
     </section>
 
-    <section class="section-spacing">
+    <section class="section-spacing" role="region" aria-labelledby="my-projects">
       <div class="section-border">
         <div class="projects">
-          <h2>My featured projects:</h2>
+          <h2 id="my-projects">My featured projects:</h2>
         </div>
         <div>
           <p>All my current projects use HTML,CSS, and javaScript</p>
@@ -154,9 +157,9 @@
       </div>
     </section>
     
-    <section class="section-spacing">
+    <section class="section-spacing" role="region" aria-labelledby="contact-kong">
       <div class="section-border">
-        <h1>CONTACT ME:</h1> 
+        <h1 id="contact-kong">CONTACT ME:</h1> 
         <div class="contact">Get in touch with me! I'll love to get to know you better. If you are interested in connecting with me, please fill out the form below:</div>
 
         <form>
@@ -178,6 +181,7 @@
   </main>
   
   <footer>
+    <button><a href="#top-view">Back to top</a></button>
     <p>
       &copy;Kong Won - 2023</a>
     </p>
