@@ -24,25 +24,31 @@
 }
 
 .middle-section {
-  margin: -50px 850px; 
+  margin: -50px 930px; 
   display: flex;
   align-items: center;
 }
 
 .right-section {
-  width: 1700px;
-  margin-right: 1000px;
+  width: 2100px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-/*.upload-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}*/
+.upload-icon-button {
+  display: block;
+  background-color: orange;
+  border-color: black;
+}
+
+.upload-icon-words {
+  font-size: small;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .github-icon, .linkedin-icon {
   height: 40px;

@@ -16,6 +16,7 @@
   align-items: center;
   flex-direction: column;
   height: 60px;
+  cursor: pointer;
 }
 
 .sidebar-icons img{
