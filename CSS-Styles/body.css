@@ -5,12 +5,15 @@
 }
 
 body {
-  background: linear-gradient(rgba(189, 201, 202, 0.5), rgba(226, 230, 17, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(
+    rgba(189, 201, 202, 0.5),
+    rgba(226, 230, 17, 0.5),
+    rgba(0, 0, 0, 0.5)
+  );
   text-align: center;
   margin-bottom: 50px;
   width: 100%;
   height: 100%;
-  
 }
 
 .section-spacing {
@@ -44,7 +47,8 @@ body {
   margin-top: 75px;
 }
 
-.my-story, .about-me {
+.my-story,
+.about-me {
   width: 500px;
   text-align: center;
   margin: auto;
@@ -75,10 +79,10 @@ body {
   width: 20%;
   background-color: grey;
   box-sizing: border-box;
-  border: 2px solid #3498db; 
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
-  margin: 20px; 
-  padding: 15px; 
+  border: 2px solid #3498db;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 15px;
 }
 
 .floating-box:nth-child(2) {
@@ -116,14 +120,14 @@ label {
   margin: 0.5rem 0;
 }
 
-input, textarea {
+input,
+textarea {
   margin: 10px 0 0 0;
   width: 60%;
   min-height: 2em;
   border-radius: 10px;
   border-color: lightblue;
 }
-
 
 input[type="submit"] {
   display: block;
@@ -136,7 +140,6 @@ input[type="submit"] {
   min-width: 300px;
   cursor: pointer;
 }
-
 
 footer {
   font-weight: bold;

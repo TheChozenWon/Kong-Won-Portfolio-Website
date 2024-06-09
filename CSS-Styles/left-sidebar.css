@@ -3,7 +3,7 @@
   left: 0px;
   bottom: 0px;
   top: 40px;
- 
+
   width: 72px;
   z-index: 200;
   padding-top: 5px;
@@ -19,7 +19,7 @@
   cursor: pointer;
 }
 
-.sidebar-icons img{
+.sidebar-icons img {
   height: 50px;
   margin-top: 900px;
 }

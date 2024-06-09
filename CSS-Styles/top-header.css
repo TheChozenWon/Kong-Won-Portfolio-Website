@@ -13,10 +13,10 @@
   background-color: rgba(230, 228, 137, 1);
   border-bottom-width: 3px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(0, 0, 0)
+  border-bottom-color: rgb(0, 0, 0);
 }
 
-.left-section { 
+.left-section {
   display: flex;
   align-items: center;
   width: 100%;
@@ -24,7 +24,7 @@
 }
 
 .middle-section {
-  margin: -50px 930px; 
+  margin: -50px 930px;
   display: flex;
   align-items: center;
 }
@@ -50,8 +50,7 @@
   cursor: pointer;
 }
 
-.github-icon, .linkedin-icon {
+.github-icon,
+.linkedin-icon {
   height: 40px;
 }
-
-
