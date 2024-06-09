@@ -6,23 +6,28 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <!--includes view for all devices, links to CSS styles-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kong Won personal portfolio" />
+    <title>Kong Won Portfolio Home</title>
+    <link rel="stylesheet" href="CSS-Styles/top-header.css" />
+    <link rel="stylesheet" href="CSS-Styles/body.css" />
+    <link rel="stylesheet" href="CSS-Styles/left-sidebar.css" />
+    <link rel="stylesheet" href="CSS-Styles/right-sidebar.css" />
+    <link
+      rel="icon"
+      href="/pictures/Kong-Won-picture.ico"
+      type="image/x-icon"
+    />
+  </head>
 
-<!--includes view for all devices, links to CSS styles-->
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Kong Won personal portfolio">
-  <title>Kong Won Portfolio Home</title>
-  <link rel="stylesheet" href="CSS-Styles/top-header.css">
-  <link rel="stylesheet" href="CSS-Styles/body.css">
-  <link rel="stylesheet" href="CSS-Styles/left-sidebar.css">
-  <link rel="stylesheet" href="CSS-Styles/right-sidebar.css">
-  <link rel="icon" href="/pictures/Kong-Won-picture.ico" type="image/x-icon" >
-</head>
+  <!--body includes in corresponding order: 1 navbar, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, About me section, projects section, contact me section-->
 
-<!--body includes in corresponding order: header, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, A about me section, a projects seciton, and a contact me section-->
-<body>
-  <header class="header">
+  <!--NAVbar-->
+  <body>
+    <header class="header">
       <section>
         <div class="left-section">
           <p>Kong Won</p>
@@ -35,186 +40,321 @@
         <div class="right-section">
           <div class="upload-icon-container">
             <a href="https://github.com/TheChozenWon">
-              <img class="github-icon" src="pictures/github-logo.png"> 
+              <img class="github-icon" src="pictures/github-logo.png" />
             </a>
           </div>
           <div class="upload-icon-container">
             <a href="https://www.linkedin.com/in/kong-won-597144252/">
-              <img class="linkedin-icon" src="pictures/LinkedIn-logo.png">
+              <img class="linkedin-icon" src="pictures/LinkedIn-logo.png" />
             </a>
           </div>
           <div class="upload-icon-container">
-            <button class="upload-icon-button"><a href="#my-projects"><p class="upload-icon-words">Projects</p></a></button>
+            <button class="upload-icon-button">
+              <a href="#my-projects"
+                ><p class="upload-icon-words">Projects</p></a
+              >
+            </button>
           </div>
           <div class="upload-icon-container">
-            <button class="upload-icon-button"><a href="#contact-kong"><p class="upload-icon-words">Contact</p></a></button>
+            <button class="upload-icon-button">
+              <a href="#contact-kong"
+                ><p class="upload-icon-words">Contact</p></a
+              >
+            </button>
           </div>
         </div>
       </section>
-  </header>
+    </header>
 
-  <section>
-    <nav>
-      <div class="sidebar-left">
-        <div class="sidebar-icons">
-          <img src="pictures/html.png" alt="HTML icon" onclick="myFunction1()">
+    <!--sideBar left-->
+    <section>
+      <nav>
+        <div class="sidebar-left">
+          <div class="sidebar-icons">
+            <img
+              src="pictures/html.png"
+              alt="HTML icon"
+              onclick="myFunction1()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/css.png"
+              alt="CSS icon"
+              onclick="myFunction2()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/JavaScript-logo.png"
+              alt="javaScript icon"
+              onclick="myFunction3()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/Python.png"
+              alt="Python icon"
+              onclick="myFunction4()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/Java.jpg"
+              alt="Java icon"
+              onclick="myFunction5()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/git.png"
+              alt="git icon"
+              onclick="myFunction6()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/PHP.png"
+              alt="php icon"
+              onclick="myFunction7()"
+            />
+          </div>
         </div>
-        <div class="sidebar-icons">
-          <img src="pictures/css.png" alt="CSS icon" onclick="myFunction2()">
+      </nav>
+    </section>
+
+    <!--sideBar right-->
+    <section>
+      <nav>
+        <div class="sidebar-right">
+          <div class="sidebar-icons">
+            <img
+              src="pictures/JavaScript-logo.png"
+              alt="javaScript icon"
+              onclick="myFunction8()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/React.png"
+              alt="React icon"
+              onclick="myFunction9()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/Typescript.png"
+              alt="Typescript icon"
+              onclick="myFunction10()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/wordpress.png"
+              alt="wordpress icon"
+              onclick="myFunction11()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/Bootstrap.png"
+              alt="bootstrap icon"
+              onclick="myFunction12()"
+            />
+          </div>
+          <div class="sidebar-icons">
+            <img
+              src="pictures/Node.js.png"
+              alt="Nodejs icon"
+              onclick="myFunction13()"
+            />
+          </div>
         </div>
-        <div class="sidebar-icons">
-          <img src="pictures/JavaScript-logo.png" alt="javaScript icon" onclick="myFunction3()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/Python.png" alt="Python icon" onclick="myFunction4()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/Java.jpg" alt="Java icon" onclick="myFunction5()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/git.png" alt="git icon" onclick="myFunction6()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/PHP.png" alt="php icon" onclick="myFunction7()">
-        </div>
+      </nav>
+    </section>
+
+    <!--Welcome section, About me-->
+    <main>
+      <div class="about-section">
+        <section id="top-view" role="region" aria-labelledby="top-view">
+          <div class="about-me">
+            <div class="intro">
+              <h1>
+                Hi, my name is Kong Won, an upcoming Frontend Web Developer
+              </h1>
+            </div>
+            <img
+              src="pictures/Kong-Won-picture.jpg"
+              alt="my picture"
+              class="profile-pic"
+            />
+          </div>
+        </section>
+
+        <section>
+          <div class="about-me">
+            <div>
+              <h2>My story and about me:</h2>
+            </div>
+            <div class="my-story">
+              <p>
+                Prior to my journey of becoming an frontend web developer, I
+                have learned 1-2 years of basic&intermediate Python and Java in
+                my first few years in college. But the topics and concepts in
+                the backend area were hard for me to fully understand. I
+                starting learning frontend development with HTML, CSS and
+                JavaScript and quickly realized that it was easier to fully
+                understand and I have an greater interest in this field.
+              </p>
+            </div>
+            <div class="about-myself">
+              <p>
+                Currently I am a senior in college with 1 year left till
+                graduation and hope to find my first frontend job soon. I will
+                be looking for an internship preferably for the summer. My
+                current plan is to master frontend development and then
+                eventually learn backend fully afterwards so I can be a
+                full-stack developer.
+              </p>
+            </div>
+            <object
+              data="thank-you-video.mp4"
+              height="300"
+              width="169"
+              title="video"
+            ></object>
+          </div>
+        </section>
       </div>
-    </nav>
-  </section>
 
-  <section>
-    <nav>
-      <div class="sidebar-right">
-        <div class="sidebar-icons">
-          <img src="pictures/JavaScript-logo.png" alt="javaScript icon" onclick="myFunction8()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/React.png" alt="React icon" onclick="myFunction9()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/Typescript.png" alt="Typescript icon" onclick="myFunction10()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/wordpress.png" alt="wordpress icon" onclick="myFunction11()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/Bootstrap.png" alt="bootstrap icon" onclick="myFunction12()">
-        </div>
-        <div class="sidebar-icons">
-          <img src="pictures/Node.js.png" alt="Nodejs icon" onclick="myFunction13()">
-        </div>
-      </div>
-    </nav>
-  </section>
-
-  <main>
-    <div class="about-section">
-      <section id="top-view" role="region" aria-labelledby="top-view">
-        <div class="about-me">
-          <div class="intro"><h1>Hi, my name is Kong Won, an upcoming Frontend Web Developer</h1></div>
-          <img src="pictures/Kong-Won-picture.jpg" alt="my picture" class="profile-pic">
+      <section>
+        <div class="proficient-familiar-lang">
+          <p>To the left is languages I am proficient in</p>
         </div>
       </section>
 
       <section>
-        <div class="about-me">
+        <p class="current-future-lang">
+          To the right is languages I am currently learning
+        </p>
+      </section>
+
+      <!---Projects section-->
+      <section
+        class="section-spacing"
+        role="region"
+        aria-labelledby="my-projects"
+      >
+        <div class="section-border">
+          <div class="projects">
+            <h2 id="my-projects">My featured projects:</h2>
+          </div>
           <div>
-            <h2>My story and about me:</h2>
-          </div>
-          <div class="my-story">
-            <p>Prior to my journey of becoming an frontend web developer, I have learned 1-2 years of basic&intermediate Python and Java in my first few years in college. But the topics and concepts in the backend area were hard for me to fully understand. I starting learning frontend development with HTML, CSS and JavaScript and quickly realized that it was easier to fully understand and I have an greater interest in this field.
+            <p>All my current projects use HTML,CSS, and javaScript</p>
+            <p>
+              I will provide a link in the future
+              <a href="current-future-projects.html">here</a> to be able to see
+              my current projects.
             </p>
+            <p>Listed below are my finished projects:</p>
           </div>
-          <div class="about-myself">
-            <p>Currently I am a senior in college with 1 year left till graduation and hope to find my first frontend job soon. I will be looking for an internship preferably for the summer. My current plan is to master frontend development and then eventually learn backend fully afterwards so I can be a full-stack developer.
-            </p>
-          </div>
-          <object data="thank-you-video.mp4" height="300" width="169" title="video">
-          </object>
         </div>
       </section>
-    </div>
 
-    <section>
-      <div class="proficient-familiar-lang">
-        <p>To the left is languages I am proficient in</p>
-      </div>
-    </section>
-
-    <section>
-        <p class="current-future-lang">To the right is languages I am currently learning</p>
-      </div>
-    </section>
-
-    <section class="section-spacing" role="region" aria-labelledby="my-projects">
-      <div class="section-border">
-        <div class="projects">
-          <h2 id="my-projects">My featured projects:</h2>
+      <section>
+        <div class="proficient-familiar-lang">
+          <p>To the left is languages I am familiar with</p>
         </div>
-        <div>
-          <p>All my current projects use HTML,CSS, and javaScript</p>
-          <p>I will provide a link in the future <a href="current-future-projects.html">here</a> to be able to see my current projects. </p>
-          <p>Listed below are my finished projects:</p>
+      </section>
+
+      <section>
+        <p class="current-future-lang">
+          To the right is languages I am planning on learning in the future
+        </p>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="floating-box">
+            <h2>Finished project one:</h2>
+            <p>This will be the content of one of my completed projects</p>
+          </div>
+
+          <div class="floating-box">
+            <h2>Finished project two:</h2>
+            <p>This will be the content of one of my completed projects</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section>
-      <div class="proficient-familiar-lang">
-        <p>To the left is languages I am familiar with</p>
-      </div>
-    </section>
+      <!--Contact Section-->
+      <section
+        class="section-spacing"
+        role="region"
+        aria-labelledby="contact-kong"
+      >
+        <div class="section-border">
+          <h1 id="contact-kong">CONTACT ME:</h1>
+          <div class="contact">
+            Get in touch with me! I'll love to get to know you better. If you
+            are interested in connecting with me, please fill out the form
+            below:
+          </div>
 
-    <section>
-        <p class="current-future-lang">To the right is languages I am planning on learning in the future</p>
-      </div>
-    </section>
+          <div id="error"></div>
+          <form id="form" action="/" method="GET">
+            <fieldset>
+              <label for="first-name" class="info">First Name:</label
+              ><input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Your First Name"
+                maxlength="20"
+              /><br />
 
-    <section>
-    <div class="container">
-      <div class="floating-box">
-        <h2>Finished project one:</h2>
-        <p>This will be the content of one of my completed projects</p>
-      </div>
+              <label for="last-name" class="info">Last Name:</label
+              ><input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Your Last Name"
+                maxlength="20"
+              /><br />
 
-      <div class="floating-box">
-        <h2>Finished project two:</h2>
-        <p>This will be the content of one of my completed projects</p>
-      </div>
-    </div>
-    </section>
-    
-    <section class="section-spacing" role="region" aria-labelledby="contact-kong">
-      <div class="section-border">
-        <h1 id="contact-kong">CONTACT ME:</h1> 
-        <div class="contact">Get in touch with me! I'll love to get to know you better. If you are interested in connecting with me, please fill out the form below:</div>
+              <label for="email" class="info">Email:</label
+              ><input
+                type="email"
+                name="email"
+                id="your-email"
+                placeholder="Your Email Address"
+                maxlength="30"
+              /><br />
 
-        <div id="error"></div>
-        <form id="form" action="/" method="GET">
-          <fieldset>
-            <label for="first-name" class="info">First Name:</label><input type="text" name="first-name" id="first-name" placeholder="Your First Name" maxlength="20"><br>
+              <label for="message" class="info">Message for me:</label
+              ><textarea
+                rows="7"
+                cols="40"
+                name="message"
+                id="messageme"
+                placeholder="Write Something Special..."
+                maxlength="100"
+              ></textarea
+              ><br /><br />
 
-            <label for="last-name" class="info">Last Name:</label><input type="text" name="last-name" id="last-name" placeholder="Your Last Name" maxlength="20"><br>
+              <input type="submit" value="Submit" />
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
 
-            <label for="email" class="info">Email:</label><input type="email" name="email" id="your-email" placeholder="Your Email Address" maxlength="30"><br>
+    <footer>
+      <button><a href="#top-view">Back to top</a></button>
+      <p>&copy; Kong Won - 2023</p>
+    </footer>
 
-            <label for="message" class="info">Message for me:</label><textarea rows="7" cols="40" name="message" id="messageme" placeholder="Write Something Special..." maxlength="100"></textarea><br><br>
-            
-            <input type="submit" value="Submit">
-
-          </fieldset>
-        </form>
-      </div>
-    </section>
-  </main>
-  
-  <footer>
-    <button><a href="#top-view">Back to top</a></button>
-    <p>
-      &copy;Kong Won - 2023</a>
-    </p>
-  </footer>
-
-  <script src="javeScripts/icon-click-info.js"></script>
-  <script src="javeScripts/form.js"></script>
-</body>
+    <script src="javeScripts/icon-click-info.js"></script>
+    <script src="javeScripts/form.js"></script>
+  </body>
 </html>
