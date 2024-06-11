@@ -1,6 +1,9 @@
 @media (prefers-reduced-motion: no-preference) {
   * {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 }
 
@@ -14,6 +17,7 @@ body {
   margin-bottom: 50px;
   width: 100%;
   height: 100%;
+  font-family: sans-serif;
 }
 
 .section-spacing {
@@ -37,6 +41,7 @@ body {
   width: auto;
   margin: auto 100px;
   overflow: auto;
+  margin-bottom: 15px;
 }
 
 .profile-pic {
@@ -144,4 +149,20 @@ input[type="submit"] {
 footer {
   font-weight: bold;
   font-size: small;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid black;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer a:hover {
+  background-color: rgb(31, 16, 252);
+  border-radius: 8px;
+  transition: color 1s ease, background-color 1s ease;
 }

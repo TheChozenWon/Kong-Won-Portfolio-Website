@@ -1,14 +1,16 @@
-.header {
+#navbar {
   height: 40px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
+  bottom: 0;
+  z-index: 10;
 
   background-color: rgba(230, 228, 137, 1);
   border-bottom-width: 3px;
@@ -16,38 +18,45 @@
   border-bottom-color: rgb(0, 0, 0);
 }
 
-.left-section {
+.left-nav {
   display: flex;
-  align-items: center;
-  width: 100%;
-  max-width: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
-.middle-section {
-  margin: -50px 930px;
+.middle-nav {
   display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav-right-list {
+  display: flex;
+  list-style: none;
   align-items: center;
 }
 
-.right-section {
-  width: 2100px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.nav-right-list li {
+  margin-left: 20px;
 }
 
-.upload-icon-button {
-  display: block;
-  background-color: orange;
-  border-color: black;
+.nav-right-list a {
+  font-size: 1em;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.5s ease;
 }
 
 .upload-icon-words {
-  font-size: small;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+  padding: 12px;
+}
+
+.upload-icon-words:hover {
+  background-color: rgb(31, 16, 252);
+  border-radius: 8px;
+  transition: color 1s ease, background-color 1s ease;
 }
 
 .github-icon,

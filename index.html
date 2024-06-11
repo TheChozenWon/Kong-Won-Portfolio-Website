@@ -27,44 +27,34 @@
 
   <!--NAVbar-->
   <body>
-    <header class="header">
-      <section>
-        <div class="left-section">
-          <p>Kong Won</p>
-        </div>
+    <nav id="navbar">
+      <div class="left-nav">
+        <p>Kong Won</p>
+      </div>
 
-        <div class="middle-section">
-          <p>Email: kwon@rockets.utoledo.edu</p>
-        </div>
+      <div class="middle-nav">
+        <p>Email: kwon@rockets.utoledo.edu</p>
+      </div>
 
-        <div class="right-section">
-          <div class="upload-icon-container">
-            <a href="https://github.com/TheChozenWon">
-              <img class="github-icon" src="pictures/github-logo.png" />
-            </a>
-          </div>
-          <div class="upload-icon-container">
-            <a href="https://www.linkedin.com/in/kong-won-597144252/">
-              <img class="linkedin-icon" src="pictures/LinkedIn-logo.png" />
-            </a>
-          </div>
-          <div class="upload-icon-container">
-            <button class="upload-icon-button">
-              <a href="#my-projects"
-                ><p class="upload-icon-words">Projects</p></a
-              >
-            </button>
-          </div>
-          <div class="upload-icon-container">
-            <button class="upload-icon-button">
-              <a href="#contact-kong"
-                ><p class="upload-icon-words">Contact</p></a
-              >
-            </button>
-          </div>
-        </div>
-      </section>
-    </header>
+      <ul class="nav-right-list">
+        <li>
+          <a href="https://github.com/TheChozenWon">
+            <img class="github-icon" src="pictures/github-logo.png" />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/kong-won-597144252/">
+            <img class="linkedin-icon" src="pictures/LinkedIn-logo.png" />
+          </a>
+        </li>
+        <li>
+          <a href="#my-projects" class="upload-icon-words">Projects</a>
+        </li>
+        <li>
+          <a href="#contact-kong" class="upload-icon-words">Contact</a>
+        </li>
+      </ul>
+    </nav>
 
     <!--sideBar left-->
     <section>
@@ -349,8 +339,9 @@
       </section>
     </main>
 
+    <!--Footer section-->
     <footer>
-      <button><a href="#top-view">Back to top</a></button>
+      <a href="#top-view">Back to top</a>
       <p>&copy; Kong Won - 2023</p>
     </footer>
 
