@@ -20,6 +20,7 @@
   display: flex;
   font-size: 1.2em;
   font-weight: bold;
+  list-style: none;
 }
 
 #left-nav a {
@@ -81,5 +82,10 @@
     flex-direction: column;
     padding: 0.8em;
     width: 450px;
+  }
+
+  .upload-icon-words {
+    display: flex;
+    padding: none;
   }
 }
