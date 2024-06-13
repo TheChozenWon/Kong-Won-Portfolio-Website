@@ -1,2 +1,3 @@
 # Kong-Won-Portfolio-Website
-#Home Page, About me, Contact me, My skills, My social links and mission
+
+#Welcome Page, About + mission, Projects,Contact, My skillset on sidebars, My social links

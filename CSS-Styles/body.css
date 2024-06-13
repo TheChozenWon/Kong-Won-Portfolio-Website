@@ -26,9 +26,16 @@ body {
 
 .welcome-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 100px;
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem auto;
 }
 
 .about-me {
@@ -39,7 +46,6 @@ body {
 .section-border {
   border: 3px solid gray;
   border-radius: 5px;
-  width: auto;
   margin: auto 100px;
   overflow: auto;
   margin-bottom: 15px;
@@ -55,6 +61,7 @@ body {
 
 .my-story,
 .about-me {
+  font-style: italic;
   width: 500px;
   text-align: center;
   margin: auto;
