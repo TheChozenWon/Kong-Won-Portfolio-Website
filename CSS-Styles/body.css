@@ -48,6 +48,12 @@ body {
   margin-top: 200px;
 }
 
+@media (max-width: 750px) {
+  .section-spacing {
+    margin-top: 0;
+  }
+}
+
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -100,6 +106,13 @@ body {
 
 #current-future-lang {
   margin-left: 100em;
+}
+
+@media (max-width: 750px) {
+  #proficient-familiar-lang,
+  #current-future-lang {
+    display: none;
+  }
 }
 
 .container {
@@ -172,7 +185,7 @@ fieldset {
 
 @media (max-width: 750px) {
   fieldset {
-    margin-right: 1em;
+    margin-right: 11em;
   }
 }
 

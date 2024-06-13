@@ -24,13 +24,13 @@
 }
 
 #left-nav a {
-  padding: 1em;
+  padding: 0.9em;
   text-decoration: none;
 }
 
 #left-nav:hover {
   cursor: pointer;
-  background-color: rgb(31, 16, 252);
+  background-color: #3498db;
   border-radius: 8px;
   transition: color 1s ease, background-color 1s ease;
 }
@@ -66,7 +66,7 @@
 }
 
 .upload-icon-words:hover {
-  background-color: rgb(17, 0, 255);
+  background-color: #3498db;
   border-radius: 8px;
   transition: color 1s ease, background-color 1s ease;
 }
@@ -78,6 +78,7 @@
 
 @media (max-width: 750px) {
   #navbar {
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 0.8em;
