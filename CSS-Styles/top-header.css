@@ -1,5 +1,5 @@
 #navbar {
-  height: 40px;
+  height: 3.8em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,4 +62,10 @@
 #github-icon,
 #linkedin-icon {
   height: 40px;
+}
+
+@media (max-width: 750px) {
+  #navbar {
+    width: 600px;
+  }
 }

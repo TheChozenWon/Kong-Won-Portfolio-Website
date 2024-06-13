@@ -17,7 +17,14 @@ body {
   margin-bottom: 50px;
   width: 100%;
   height: 100%;
-  font-family: sans-serif;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    sans-serif;
+}
+
+@media (max-width: 750px) {
+  body {
+  }
 }
 
 .section-spacing {
@@ -67,20 +74,12 @@ body {
   margin: auto;
 }
 
-.proficient-familiar-lang {
-  display: flex;
-  width: 150px;
-  height: 50px;
-  padding-left: 90px;
-  padding-top: 70px;
+#proficient-familiar-lang {
+  margin-right: 100em;
 }
 
-.current-future-lang {
-  display: flex;
-  width: 150px;
-  height: 50px;
-  padding-left: 85%;
-  padding-top: 50px;
+#current-future-lang {
+  margin-left: 100em;
 }
 
 .container {
