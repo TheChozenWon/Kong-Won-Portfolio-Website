@@ -18,13 +18,13 @@
   border-bottom-color: rgb(0, 0, 0);
 }
 
-.left-nav {
+#left-nav {
   display: flex;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.middle-nav {
+#middle-nav {
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -59,7 +59,7 @@
   transition: color 1s ease, background-color 1s ease;
 }
 
-.github-icon,
-.linkedin-icon {
+#github-icon,
+#linkedin-icon {
   height: 40px;
 }
