@@ -4,14 +4,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 10;
-
   background-color: rgba(230, 228, 137, 1);
   border-bottom-width: 3px;
   border-bottom-style: solid;
@@ -66,6 +64,9 @@
 
 @media (max-width: 750px) {
   #navbar {
-    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.8em;
+    width: 450px;
   }
 }
