@@ -21,3 +21,9 @@
   height: 50px;
   margin-top: 500px;
 }
+
+@media (max-width: 750px) {
+  .sidebar-left {
+    display: none;
+  }
+}

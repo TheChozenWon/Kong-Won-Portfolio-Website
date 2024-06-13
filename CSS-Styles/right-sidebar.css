@@ -15,3 +15,9 @@
   flex-direction: column;
   height: 60px;
 }
+
+@media (max-width: 750px) {
+  .sidebar-right {
+    display: none;
+  }
+}

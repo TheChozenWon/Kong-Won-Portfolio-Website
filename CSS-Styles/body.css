@@ -1,9 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   * {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+}
+
+@media (max-width: 750px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -23,7 +37,9 @@ body {
 }
 
 @media (max-width: 750px) {
+  html,
   body {
+    overflow-x: hidden;
   }
 }
 
@@ -41,21 +57,24 @@ body {
 #intro {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 10rem auto;
+}
+
+#intro h1 {
+  font-size: 3em;
+}
+
+@media (max-width: 750px) {
+  #intro,
+  #intro h1 {
+    font-size: 1em;
+  }
 }
 
 .about-me {
   flex: 1;
   padding: 10px;
-}
-
-.section-border {
-  border: 3px solid gray;
-  border-radius: 5px;
-  margin: auto 100px;
-  overflow: auto;
-  margin-bottom: 15px;
 }
 
 .profile-pic {
@@ -89,7 +108,7 @@ body {
 
 .floating-box {
   width: 20%;
-  background-color: grey;
+  background-color: rgb(1, 255, 56);
   box-sizing: border-box;
   border: 2px solid #3498db;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -98,7 +117,35 @@ body {
 }
 
 .floating-box:nth-child(2) {
-  background-color: white;
+  background-color: rgb(1, 255, 56);
+}
+
+@media (max-width: 750px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .floating-box {
+    width: 80%;
+  }
+}
+
+.section-border {
+  border: 3px solid gray;
+  border-radius: 5px;
+  margin: auto 100px;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 750px) {
+  .section-border {
+    border: none;
+    margin: auto;
+  }
 }
 
 .contact {
@@ -117,6 +164,12 @@ fieldset {
   padding: 0.8rem;
   border: 8px solid rgba(27, 189, 211, 0.5);
   border-radius: 5px;
+}
+
+@media (max-width: 750px) {
+  fieldset {
+    margin-right: 1em;
+  }
 }
 
 .info {
