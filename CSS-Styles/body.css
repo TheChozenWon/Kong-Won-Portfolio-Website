@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -54,11 +56,33 @@ body {
   }
 }
 
+.section-border {
+  width: 50%;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin: auto 100px;
+  overflow: auto;
+  margin: 15px auto 15px auto;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
+@media (max-width: 750px) {
+  .section-border {
+    border: none;
+    margin: auto;
+    width: 400px;
+    box-shadow: none;
+  }
+}
+
 .welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  border-bottom: 1px solid grey;
 }
 
 #intro {
@@ -79,25 +103,35 @@ body {
   }
 }
 
-.about-me {
-  flex: 1;
-  padding: 10px;
-}
-
 .profile-pic {
   width: 80%;
 }
 
-.intro {
-  margin-top: 75px;
+#about {
+  text-decoration: underline;
 }
 
-.my-story,
-.about-me {
+#my-story {
   font-style: italic;
-  width: 500px;
-  text-align: center;
-  margin: auto;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+}
+
+@media (max-width: 750px) {
+  .my-story {
+    width: auto;
+    overflow: auto;
+  }
+}
+
+#hero {
+  border-bottom: 1px solid grey;
+}
+
+object {
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 #proficient-familiar-lang {
@@ -118,6 +152,7 @@ body {
 .container {
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 1px solid grey;
 }
 
 .floating-box {
@@ -140,28 +175,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 9em;
   }
 
   .floating-box {
     width: 80%;
-  }
-}
-
-.section-border {
-  width: 50%;
-  border: 3px solid rgb(0, 0, 0);
-  border-radius: 5px;
-  margin: auto 100px;
-  overflow: auto;
-  margin: 15px auto 15px auto;
-  text-align: center;
-  justify-content: center;
-}
-
-@media (max-width: 750px) {
-  .section-border {
-    border: none;
-    margin: auto;
   }
 }
 
@@ -183,12 +201,6 @@ fieldset {
   border-radius: 5px;
 }
 
-@media (max-width: 750px) {
-  fieldset {
-    margin-right: 11em;
-  }
-}
-
 .info {
   font-weight: bold;
 }
@@ -203,6 +215,7 @@ fieldset {
   margin-bottom: 10px;
   font-style: italic;
   font-size: large;
+  font-weight: bold;
   color: rgb(139, 27, 27);
 }
 
@@ -235,16 +248,24 @@ input[type="submit"] {
   border-color: black;
   min-width: 300px;
   cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+
+input[type="submit"]:hover {
+  transform: translateY(8px);
 }
 
 footer {
   font-weight: bold;
   font-size: small;
+  padding: 10px;
+  border-top: 1px solid black;
 }
 
 footer a {
   text-decoration: none;
   font-size: 1.5em;
+  padding: 5px;
   border: 3px solid black;
 }
 

@@ -89,4 +89,13 @@
     display: flex;
     padding: none;
   }
+
+  #middle-nav {
+    border-bottom: 2px solid black;
+  }
+
+  .nav-right-list {
+    width: 500px;
+    border-bottom: 2px solid black;
+  }
 }
