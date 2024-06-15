@@ -81,8 +81,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 0.8em;
+    padding: 0;
     width: 450px;
+    margin-bottom: 2.5em;
   }
 
   .upload-icon-words {
