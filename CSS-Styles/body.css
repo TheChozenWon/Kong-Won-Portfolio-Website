@@ -24,6 +24,12 @@
   }
 }
 
+@media (max-width: 750px) {
+  html {
+    font-size: 80%;
+  }
+}
+
 body {
   background: linear-gradient(
     rgba(189, 201, 202, 0.5),
@@ -47,7 +53,7 @@ body {
 }
 
 .section-spacing {
-  margin-top: 200px;
+  margin-top: 5rem;
 }
 
 @media (max-width: 750px) {
@@ -70,8 +76,9 @@ body {
 
 @media (max-width: 750px) {
   .section-border {
-    border: none;
-    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    border: 1px solid grey;
     width: 400px;
     box-shadow: none;
   }
@@ -126,6 +133,7 @@ body {
 }
 
 #hero {
+  padding-bottom: 3em;
   border-bottom: 1px solid grey;
 }
 
@@ -153,6 +161,14 @@ object {
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid grey;
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+
+@media (max-width: 750px) {
+  #my-projects {
+    padding-top: 3em;
+  }
 }
 
 .floating-box {
@@ -176,6 +192,7 @@ object {
     justify-content: center;
     align-items: center;
     margin-bottom: 9em;
+    padding-bottom: 3em;
   }
 
   .floating-box {
@@ -258,8 +275,9 @@ input[type="submit"]:hover {
 footer {
   font-weight: bold;
   font-size: small;
-  padding: 10px;
+  padding-top: 2em;
   border-top: 1px solid black;
+  margin-top: 4rem;
 }
 
 footer a {
@@ -270,7 +288,8 @@ footer a {
 }
 
 footer p {
-  margin-top: 10px;
+  margin-top: 4em;
+  padding: 0;
 }
 
 footer a:hover {

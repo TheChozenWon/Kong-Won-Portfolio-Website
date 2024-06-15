@@ -90,12 +90,32 @@
     padding: none;
   }
 
+  #left-nav p {
+    margin-right: 6em;
+  }
+
   #middle-nav {
+    background-color: rgba(230, 228, 137, 1);
     border-bottom: 2px solid black;
+    padding-top: 1em;
+    width: 131vw;
+  }
+
+  #middle-nav p {
+    margin-left: 6em;
   }
 
   .nav-right-list {
+    background-color: rgba(230, 228, 137, 1);
     width: 500px;
     border-bottom: 2px solid black;
+  }
+
+  .nav-right-list li {
+    margin-left: 2.2em;
+  }
+
+  .nav-right-list li a {
+    padding: 0;
   }
 }
