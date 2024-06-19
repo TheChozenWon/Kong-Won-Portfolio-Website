@@ -63,6 +63,8 @@ body {
 }
 
 .section-border {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 50%;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 5px;
@@ -118,6 +120,11 @@ body {
 #my-projects {
   text-decoration: underline;
   margin-bottom: 1em;
+}
+
+.firstLet {
+  font-size: 20px;
+  color: red;
 }
 
 #my-story,
@@ -216,6 +223,7 @@ form {
 }
 
 fieldset {
+  background-color: lightblue;
   padding: 0.8rem;
   border: 8px solid rgba(27, 189, 211, 0.5);
   border-radius: 5px;
@@ -277,8 +285,13 @@ input[type="submit"] {
   transition: transform 0.3s ease-out;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+.logo-ani:hover {
   transform: translateY(8px);
+}
+
+logo-ani {
+  transition: transform 0.3s ease-out;
 }
 
 footer {

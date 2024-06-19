@@ -20,7 +20,9 @@
   display: flex;
   font-size: 1.2em;
   font-weight: bold;
+  font-family: Barret;
   list-style: none;
+  text-shadow: 0 0 25px #fff;
 }
 
 #left-nav a {
@@ -73,7 +75,8 @@
 
 #github-icon,
 #linkedin-icon {
-  height: 40px;
+  display: block;
+  height: 55px;
 }
 
 @media (max-width: 750px) {
