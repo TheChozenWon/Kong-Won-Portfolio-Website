@@ -14,8 +14,7 @@
     <title>Kong Won Portfolio Home</title>
     <link rel="stylesheet" href="CSS-Styles/top-header.css" />
     <link rel="stylesheet" href="CSS-Styles/body.css" />
-    <link rel="stylesheet" href="CSS-Styles/left-sidebar.css" />
-    <link rel="stylesheet" href="CSS-Styles/right-sidebar.css" />
+    <link rel="stylesheet" href="CSS-Styles/left-right-sidebar.css" />
     <link
       rel="icon"
       href="/pictures/Kong-Won-picture.ico"
@@ -23,9 +22,9 @@
     />
   </head>
 
-  <!--Personal Portfolio in corresponding order: navbar, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, About me section, projects section, contact me section-->
+  <!--Personal Portfolio in corresponding order: Top navbar, 2 sidebars(1 left and 1 right), A introduction with my face and goal/statement, About me section, projects section, contact me section, (for mobile, add a skills section)-->
 
-  <!--NAVbar-->
+  <!--Top NAVbar-->
   <body>
     <nav id="navbar">
       <div id="left-nav">
@@ -69,108 +68,107 @@
       </ul>
     </nav>
 
-    <!--sideBar left-->
+    <!--sideBar section-->
     <section>
       <nav>
-        <div class="sidebar-left">
-          <div class="sidebar-icons">
-            <img
-              src="pictures/html.png"
-              alt="HTML icon"
-              onclick="myFunction1()"
-            />
+        <!--sideBar left-->
+        <div class="sidebar-container-left-right">
+          <div class="sidebar left-sidebar">
+            <div class="sidebar-icons">
+              <img
+                src="pictures/html.png"
+                alt="HTML icon"
+                onclick="myFunction1()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/css.png"
+                alt="CSS icon"
+                onclick="myFunction2()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/JavaScript-logo.png"
+                alt="javaScript icon"
+                onclick="myFunction3()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/Python.png"
+                alt="Python icon"
+                onclick="myFunction4()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/Java.jpg"
+                alt="Java icon"
+                onclick="myFunction5()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/git.png"
+                alt="git icon"
+                onclick="myFunction6()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/PHP.png"
+                alt="php icon"
+                onclick="myFunction7()"
+              />
+            </div>
           </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/css.png"
-              alt="CSS icon"
-              onclick="myFunction2()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/JavaScript-logo.png"
-              alt="javaScript icon"
-              onclick="myFunction3()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/Python.png"
-              alt="Python icon"
-              onclick="myFunction4()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/Java.jpg"
-              alt="Java icon"
-              onclick="myFunction5()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/git.png"
-              alt="git icon"
-              onclick="myFunction6()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/PHP.png"
-              alt="php icon"
-              onclick="myFunction7()"
-            />
-          </div>
-        </div>
-      </nav>
-    </section>
 
-    <!--sideBar right-->
-    <section>
-      <nav>
-        <div class="sidebar-right">
-          <div class="sidebar-icons">
-            <img
-              src="pictures/JavaScript-logo.png"
-              alt="javaScript icon"
-              onclick="myFunction8()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/React.png"
-              alt="React icon"
-              onclick="myFunction9()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/Typescript.png"
-              alt="Typescript icon"
-              onclick="myFunction10()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/wordpress.png"
-              alt="wordpress icon"
-              onclick="myFunction11()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/Bootstrap.png"
-              alt="bootstrap icon"
-              onclick="myFunction12()"
-            />
-          </div>
-          <div class="sidebar-icons">
-            <img
-              src="pictures/Node.js.png"
-              alt="Nodejs icon"
-              onclick="myFunction13()"
-            />
+          <!--sideBar right-->
+          <div class="sidebar sidebar-right">
+            <div class="sidebar-icons">
+              <img
+                src="pictures/JavaScript-logo.png"
+                alt="javaScript icon"
+                onclick="myFunction8()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/React.png"
+                alt="React icon"
+                onclick="myFunction9()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/Typescript.png"
+                alt="Typescript icon"
+                onclick="myFunction10()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/wordpress.png"
+                alt="wordpress icon"
+                onclick="myFunction11()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/Bootstrap.png"
+                alt="bootstrap icon"
+                onclick="myFunction12()"
+              />
+            </div>
+            <div class="sidebar-icons">
+              <img
+                src="pictures/Node.js.png"
+                alt="Nodejs icon"
+                onclick="myFunction13()"
+              />
+            </div>
           </div>
         </div>
       </nav>
@@ -194,11 +192,11 @@
       </section>
 
       <div id="proficient-familiar-lang">
-        <h2><-proficient skill-set</h2>
+        <h2>&lt;-proficient skill-set</h2>
       </div>
 
       <div id="current-future-lang">
-        <h2>Currently learning -></h2>
+        <h2>Currently learning -&gt;</h2>
       </div>
 
       <!--About me/hero section-->
@@ -208,24 +206,26 @@
             <h2 id="about">My Story and About Me:</h2>
             <div id="my-story">
               <p>
-                <span class="firstLet">P</span>rior to my journey of becoming an
-                frontend web developer, I had learned 1-2 years of Python and
-                Java in college. But the topics and concepts in the software
-                backend area were hard for me to grasp. I starting learning
-                frontend development with HTML, CSS and JavaScript and quickly
-                realized that it was easier to fully understand and grasp plus I
-                had an greater interest within this field and knew it was right
-                for me.<span class="firstLet"> C</span>urrently I am a senior in
-                college with 1 year left till graduation and hope to find my
-                first frontend job soon. I will be looking for an internship
-                preferably for the summer. My major has always been in the tech.
-                industry and I am passionate and love taking on new challenges.
-                I always appreciate working with other developers and combing
-                the skills learned and apply to work better collaboratively.
-                Outside of coding, I like to hang out with friends and stay up
-                to date on new web tech. My plan is to master frontend
-                development and then eventually master backend development so
-                that I am able to become a reliable full-stack developer.
+                <span class="firstLet">P</span>rior to my journey of wanting to
+                become an frontend web developer, I had learned 1-2 years of
+                Python and Java in college. But the topics and concepts in the
+                software backend area were hard for me to grasp. I starting
+                learning frontend development with HTML, CSS, JavaScript and
+                quickly realized that it was easier to fully understand and
+                grasp plus I had an greater interest within this field and knew
+                it was right for me.<div id="line-spacing"></div><span class="firstLet"> C</span>urrently I
+                am a senior in college with 1 year left till graduation and hope
+                to find my first career job soon. I will be looking for an
+                internship that involves roles for Web Dev., IT/Networking, and
+                Embedded Systems, preferably for the summer of 2025. My major
+                has always been in the tech. industry and I am passionate and
+                love taking on new challenges. I always appreciate working with
+                other developers and combining the skills learned and apply to
+                work better collaboratively. Outside of coding, I like to hang
+                out with friends and stay up to date on new web tech. My plan is
+                to master frontend development and then eventually master
+                backend development so that I am able to become a reliable
+                full-stack developer.
               </p>
             </div>
             <object
@@ -260,11 +260,11 @@
       </section>
 
       <div id="proficient-familiar-lang">
-        <h2><- familiar with</h2>
+        <h2>&lt;- familiar with</h2>
       </div>
 
       <div id="current-future-lang">
-        <h2>Plan to learn soon -></h2>
+        <h2>Plan to learn soon -&gt;</h2>
       </div>
 
       <section>

@@ -113,7 +113,7 @@ body {
 }
 
 .profile-pic {
-  width: 80%;
+  width: 50%;
 }
 
 #about,
@@ -125,6 +125,10 @@ body {
 .firstLet {
   font-size: 20px;
   color: red;
+}
+
+#line-spacing {
+  padding: 15px;
 }
 
 #my-story,
